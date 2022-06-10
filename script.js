@@ -1,3 +1,10 @@
+//Create each pixel for the canvas
+for (let index = 0; index < 2156; index++) {
+  let pixel = document.createElement("div");
+  pixel.className = "pixel";
+  document.getElementById("canvas").appendChild(pixel);
+}
+
 //Object that stores current settings
 var settings = {
   pen: true,
